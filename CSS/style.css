@@ -52,7 +52,7 @@ margin: 0px;
     margin-top: 10px;
 }
 .education{
-    background-color: rgba(25, 146, 198);
+    background-color: #1992c6;
     padding-bottom: 25px;
 }
 .education h2{
@@ -86,4 +86,39 @@ margin: 0px;
     padding: 20px;
     border-radius: 25px;
     margin-bottom: 25px;
+}
+.skl-cnt{
+    display: flex;
+}
+.skl-cnt li{
+    padding-left: 25px;
+    list-style: none;
+    font-size: 22px;
+}
+.ts-title, .ss-title{
+    font-size: 28px;
+}
+.social-handles{
+    color: white;
+    background-color: #1992c6;
+}
+.footer-RJS{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #1992c6;
+}
+.social-handles h2{
+    padding-top: 50px;
+}
+.sh-cnt{
+    display: flex;
+    justify-content: space-around;
+}
+.sh-cnt i{
+    font-size: 100px;
+}
+.sh-cnt a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
 }
