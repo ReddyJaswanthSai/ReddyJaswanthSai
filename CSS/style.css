@@ -1,0 +1,55 @@
+.brand-logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.nav-wrapper{
+    padding-left: 100px;
+    background-color: #1993c6;
+    padding-right: 100px;
+}
+.li-list{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.li-list li :hover{
+    border-bottom: 1px solid white;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.projects, .education, .skills{
+    color: black;
+}
+.s4{
+margin: 0px;
+}
+.card-in{
+    color: black;
+}
+.card{
+    margin: 0px;
+    background-color: #1993c6;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.section-title{
+    text-align: center;
+}
+.card-title{
+    font-weight: 400;
+}
+.card-content p{
+    font-weight: 300;
+}
+.card-content .btn{
+    background-color: white;
+    color: #1993c6;
+    margin-top: 10px;
+}
+.education{
+    background-color: rgba(25, 146, 198, 0.5);
+}

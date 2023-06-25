@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        media="screen,projection" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Jaswanth</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down li-list">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="https://github.com/ReddyJaswanthSai" target="_blank"><i
+                            class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var elems = document.querySelectorAll(".sidenav");
+            var instances = M.Sidenav.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $(".sidenav").sidenav();
+        });
+    </script>
+        <div id="projects" class="projects container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col s12 m4 ">
+                    <div class="card card-in ">
+                        <div class="card-content">
+                            <span class="card-title">Predicting Credible Customers</span>
+                            <p>Developed a machine learning algorithm to predict the credibility of
+                                customers, enhancing decision-making processes.</p>
+                            <a target="_blank" href="https://github.com/ReddyJaswanthSai/Predicting-Credible-Customers.git" class="waves-effect waves-light btn"><i class="fa-brands fa-github left"
+                                    style="color: #1993c6;"></i>Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card card-in ">
+                        <div class="card-content">
+                            <span class="card-title">Random Password Generator</span>
+                            <p>Developed a program to generate secure and random passwords, ensuring
+                                data security.</p>
+                            <a target="_blank" href="https://github.com/ReddyJaswanthSai/Random-Password-Generator.git" class="waves-effect waves-light btn"><i class="fa-brands fa-github left"
+                                    style="color: #1993c6;"></i>Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card card-in ">
+                        <div class="card-content">
+                            <span class="card-title">Air Quality Prediction</span>
+                            <p>Utilized machine learning techniques to predict air quality levels based on
+                                historical data, aiding in environmental monitoring and decision-making.</p>
+                            <a target="_blank" href="https://github.com/ReddyJaswanthSai/Air-Quality-Prediction.git" class="waves-effect waves-light btn"><i class="fa-brands fa-github left"
+                                    style="color: #1993c6;"></i>Github</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="education" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="edu">
+
+            </div>
+            <div class="edu">
+
+            </div>
+            <div class="edu">
+
+            </div>
+
+        </div>
+        <div class="skills container" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="techskills"></div>
+            <div class="softskills"></div>
+        </div>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
